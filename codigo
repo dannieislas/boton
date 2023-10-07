@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+
+.button {
+  display: inline-block;
+  width: 150px; /* Ancho del botón */
+  height: 150px; /* Altura del botón */
+  border-radius: 50%; /* Esto hace que el botón sea completamente redondo */
+  background-image: url('ERIKA_Y_FELIPE_(Circle Sticker)_(1)_(1).png'); /* Reemplaza 'URL_DE_LA_IMAGEN' con la URL que copiaste */
+  background-size: cover; /* Ajusta la imagen para cubrir el botón */
+  background-position: center; /* Coloca la imagen en el centro del botón */
+  border: 2px solid #ffdb58; /* Añade un borde dorado al botón */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Agrega una suave sombra al botón */
+  transition: transform 0.2s ease, border-color 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.1); /* Hace que el botón se agrande ligeramente al pasar el mouse */
+  border-color: #ffcc29; /* Cambia el color del borde al pasar el mouse */
+}
+</style>
+</head>
+<body>
+
+<div class="button-container">
+  <a href="#" class="button"></a>
+</div>
+
+</body>
+</html>
